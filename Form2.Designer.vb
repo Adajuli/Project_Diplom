@@ -43,33 +43,33 @@ Partial Class Form2
         '
         Me.PictureBox1.Location = New System.Drawing.Point(13, 32)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(499, 530)
+        Me.PictureBox1.Size = New System.Drawing.Size(586, 568)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(13, 569)
+        Me.Button1.Location = New System.Drawing.Point(13, 606)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(123, 37)
+        Me.Button1.Size = New System.Drawing.Size(209, 37)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Построить"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(201, 569)
+        Me.Button2.Location = New System.Drawing.Point(228, 606)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(123, 37)
+        Me.Button2.Size = New System.Drawing.Size(181, 37)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Вернуться"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(389, 569)
+        Me.Button3.Location = New System.Drawing.Point(415, 606)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(123, 37)
+        Me.Button3.Size = New System.Drawing.Size(184, 37)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "Выход"
         Me.Button3.UseVisualStyleBackColor = True
@@ -78,7 +78,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(528, 618)
+        Me.ClientSize = New System.Drawing.Size(611, 655)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -86,7 +86,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "Построение"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
